@@ -4,11 +4,31 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>null</title>
+<title>HW2</title>
 <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/grid.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 <body>
-    <h1 class="hidden">content</h1>
+    <h1 class="hidden">HW2</h1> 
+    <header class="grid-con">
+        <div class="col-start-1 col-end-4 m-col-end-3 l-col-end-4 box1">Logo</div>
+        <nav class="col-start-4 col-end-5 m-col-start-3 m-col-end-13 l-col-start-4 l-col-end-13 box1">Nav</nav>
+    </header>
+    <main class="grid-con">
+        <div class="col-span-full box3">Hero image</div>
+        <div class="col-span-full m-col-start-1 m-col-end-7 box2">Product 1</div>
+        <div class="col-span-full m-col-start-7 m-col-end-13 box2">Product 2</div>
+        <div class="col-start-1 col-end-3 m-col-start-1 m-col-end-5 l-col-span-3 box2">Service 1</div>
+        <div class="col-start-3 col-end-5 m-col-start-5 m-col-end-9 l-col-span-3 box2">Service 2</div>
+        <div class="col-start-1 col-end-3 m-col-start-9 m-col-end-13 l-col-span-3 box2">Service 3</div>
+        <div class="col-start-3 col-end-5 m-col-start-1 m-col-end-5 l-col-span-3 box2">Service 4</div>
+        <div class="col-start-1 col-end-3 m-col-start-5 m-col-end-9 l-col-span-3 box2">Service 5</div>
+        <div class="l-col-span-6 box2" id="image">Image</div>
+        <div class="col-start-3 col-end-5 m-col-start-9 m-col-end-13 l-col-span-3 box2">Service 6</div>
+    </main>
+    <footer class="grid-con">
+        <div class="col-span-full box2">Footer</div>
+    </footer>
 <script src="js/main.js"></script>
 </body>
 </html>
